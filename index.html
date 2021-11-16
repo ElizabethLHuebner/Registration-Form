@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <table>
+            <tr>
+                <td><p>First Name: *</p></td> 
+                <td><input type="text" name="First_Name"></td>         
+            </tr>
+            <tr>
+                <td><p>Last name: *</p></td>
+                <td><input type="text" name="Last_Name: *"></td>
+            </tr>
+            <tr>
+                <td><p>Email Address:*</p></td>
+                <td><input type="text" name="Email_Address: *"></td>
+            </tr>
+            <tr>
+                <td><p>Password:*</p></td>
+                <td><input type="password" name="Password: *"></td>
+            </tr>
+            <tr>
+                <td><p>Confirm Password:*</p></td>
+                <td><input type="password" name="Confirm_Password: *"></td>
+            </tr>
+            <tr>
+                <td><p>Birthday:</p></td>
+                <td><input type="date" name="Birthday:"></td>
+            </tr>
+            <tr>
+                <td><p>Gender Identity:</p></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="Gender_Identity:" value="#" id="#"> 
+                <label for="Male">Male</label></td>
+                <td><input type="radio" name="Gender_Identity:" value="#" id="#">
+                <label for="Female">Female</label></td>
+                <td><input type="radio" name="Gender_Identity:" value="#" id="#">
+                <label for="Non-binary">Non-binary</label></td>
+                <td><input type="radio" name="Gender_Identity:" value="#" id="#">
+                <label for="I_prefer_not_to_answer">I prefer not to answer</label></td>
+            </tr>
+    </table>
+    <p>A short description about myself:</p>
+    <textarea name="A_short_description_about_myself" cols="35" rows="3">
+    </textarea>
+    <div>
+        <table>
+            <tr>
+                <td><label for="Favorite_Language">Favorite Language:</label>
+                <select name="Favorite_Language">
+                    <option>JavaScript</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td><input type="checkbox" name="accept" id="accept">
+                <label for="accept">Yes, I would like to receive periodic email updates</label></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <input type="submit" name="accept" value="Create Account" id="Create Account">
+    </div>
+    <p>* Indicates a required field</p>
+</body>
+</html>
